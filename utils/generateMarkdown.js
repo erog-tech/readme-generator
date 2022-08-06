@@ -1,27 +1,35 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function licenseBadge(license) {
-  const licenseType = data.license[0];
-  let licenseString = " "
-  if (licenseType === "MIT") {
-    licenseString = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
-  };
-  if (licenseType === "GNU General Public License 2.0") {
-    licenseString = `![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)`
-  };
-  if (licenseType === "Apache License 2.0") {
-     licenseString = `![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)`
+function licenseBadge(data) {
+    const type = data.license[0]; 
+    let badge = ""
+    if (type === "MIT") {
+      badge = `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
     };
-  if (licenseType === "GNU General Public License 3.0") {
-      licenseString = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    if (type === "BSD 3-clause Clear license") {
+      badge = `![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`
     };
-  return licenseString
-  };
+    if (type === "Creative Commons Attribution 4.0") {
+      badge = `![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)`
+    };
+    if (type === "GNU General Public License 3.0") {
+      badge = `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
+    };
+    if (type === "Do What The F*ck You Want To Public License") {
+      badge = `![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)`
+    };
+    if (type === "Apache License 2.0") {
+      badge = `![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
+    };
+    return badge
+    };
 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string

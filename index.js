@@ -37,7 +37,7 @@ inquirer
         {
             type: "checkbox",
             message: "What is the license used for this project?",
-            choices: ["MIT", "BSD 3-clause Clear license", "Creative Commons Attribution 4.0", "GNU General Public License 2.0", "Do What The F*ck You Want To Public License", "Apache License 2.0", "Educational Community License v2.0", "GNU General Public License 3.0"],
+            choices: ["MIT", "BSD 3-clause Clear license", "Creative Commons Attribution 4.0", "GNU General Public License 3.0", "Do What The F*ck You Want To Public License", "Apache License 2.0"],
             name: "license",
         },
         {
