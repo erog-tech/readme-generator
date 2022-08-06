@@ -52,7 +52,7 @@ inquirer
         },
     ])
     .then((response) =>
-        fs.writeFile("README.md", 'Hello Text', err => {
+        fs.writeFile("README.md", JSON.stringify(response), err => {
             if (err) {
                 console.log('Error occured!');
             }
