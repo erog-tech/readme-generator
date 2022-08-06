@@ -43,7 +43,7 @@ inquirer
         {
             type: "input",
             message: "What is your GitHub username?",
-            name: "github"
+            name: "username"
         },
         {
             type: "input",

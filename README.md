@@ -1,4 +1,4 @@
-# qdq
+# Create a Readme file
   ## Table of Contents:
   1. [Description](#description) 
   2. [Installation](#Installation)
@@ -9,18 +9,18 @@
   7. [GitHub](#GitHub)
   8. [E-mail](#E-mail)
 ## Description
-qwdqdw 
+This Project generates the Readme file 
 ## Installation
-undefined
+To install this application, you can clone this this repo and run npm i to install packages
 ## Usage
-undefined
+To use this application open terminal and go the project directory and run 'node index.js'
 ## Contributing
-undefined
+To contribute for this project fork this project and create a branch and push the changes for approval
 ## Tests
-dqwdq
+To test the application run the application
 ## License
 undefined
-## GitHub
-qdw
+## Username
+erog-tech
 ## E-mail
-dqw
+erog-tech@users
