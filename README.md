@@ -1,4 +1,4 @@
-# avsfv
+# Create Readme File
   ## Table of Contents:
   1. [Description](#description) 
   2. [Installation](#Installation)
@@ -9,18 +9,18 @@
   7. [GitHub](#GitHub)
   8. [E-mail](#E-mail)
 ## Description
-advsdfav 
+This Project generates Readme file 
 ## Installation
-avsevse
+Clone the project and run 'npm i' at the location of your project in terminal 
 ## Usage
-vvsevew
+To use the application run node 'index.js' from the terminal at the location of your project
 ## Contributing
-vveqvawev
+To contribute for this project fork the project, create a branch and send it for approval
 ## Tests
-eevefvse
+To test the application run all the feautures
 ## License
-![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ## Username
-sfvqev
+erog-tech
 ## E-mail
-edfveafv
+prikshitthakur0@gmail.com
